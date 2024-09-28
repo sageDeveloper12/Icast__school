@@ -1,0 +1,36 @@
+.contact__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.contact__container .contact__details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: content;
+    gap: 2rem;
+    padding: 1.5rem;
+    width: 30%
+}
+.contact__container .contact__details .icon__wrapper{
+    background-color:var(--color-primary);
+    padding: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__container .icon__wrapper .icon{
+    font-size: 3rem;
+    color: white;
+}
+
+.contact__details:hover .icon{
+    border: 2px solid whitesmoke;
+    padding: 1rem;
+    border-radius: 50%;
+    transform: scale(1.2);
+
+}

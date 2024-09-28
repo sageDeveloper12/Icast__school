@@ -1,0 +1,17 @@
+.subheader{
+    width:100vw;
+    height:17rem;  
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    opacity: 0.5;
+    z-index: -100;
+    background-color: blue;
+}
+
+.subheader__container h2{
+    font-size: 2rem;
+    position: relative;
+    top: 2rem;
+}
+
